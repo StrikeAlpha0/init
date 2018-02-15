@@ -1,0 +1,31 @@
+arp - finds addresses.
+
+Docker - Set up
+
+brew -v
+brew install docker
+brew install docker-compose
+docker-machine create
+eval $(docker-machine env default<--("Whatever name you want"))
+docker run -it -privileged debian <-- Runs as root with all permissions
+
+Terms
+ssh connects you to remote machines (client)
+sshd connects others with your machine (server)
+
+items needed
+apt-get update
+apt-get install vim
+				uptimed
+				openssh-server
+				ufw
+				iptables-persistent
+				cron
+				apt-utils
+				crontab -e
+				crontab -l
+				debsum
+ssh-keygen -t rsa -> /root/.ssh/id_rsa
+touch syslog
+iptable 
+adduser "username" <-- password needed and promt will immediately pop-up
